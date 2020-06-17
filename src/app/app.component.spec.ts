@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'dont-push-the-button'`, () => {
+  it(`should have as title 'my-name-is-pl4y'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('dont-push-the-button');
+    expect(app.title).toEqual('my-name-is-pl4y');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('dont-push-the-button app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('my-name-is-pl4y app is running!');
   });
 });

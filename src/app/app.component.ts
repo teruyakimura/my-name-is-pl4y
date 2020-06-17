@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   audio2 = new Audio(" ../../../assets/giornos.mp3");
-  title = 'dont-push-the-button';
+  title = 'my-name-is-pl4y';
 
   buttonClicked: boolean = false;
 
